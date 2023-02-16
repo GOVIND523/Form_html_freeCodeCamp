@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css"> 
+	<title>Survey Page</title>
+</head>
+<body>
+		<h1 id="title"> The Survey Form<h1>
+		<p id="description">This is a survey page for users support our improvement.</p>
+		
+		<div id="form">
+			<form id="survey-form">	
+				
+				<fieldset>
+					<label for="name" id="name-label">Name
+						<input id="name" name="name" type="text" placeholder="Enter your name" required/>
+					</label>					
+					<label for="email" id="email-label">Email
+						<input id="email" name="email" type="email" placeholder="Enter your Email" required/>
+					</label>					
+					<label for="Age" id="number-label">Age (optional)
+						<input id="number" name="age" type="number" min="8" max="14" placeholder="Age"/>
+					</label>				
+					<label for="role" id="label">Which option best decribes your current role?
+						<select id="dropdown" name="role">
+							<option value="currentrole">Select current role</option>
+							<option value="student">Student</option>
+							<option value="fulltime">Full Time Job</option>
+							<option value="fulllearner">Full Time Learner</option>
+							<option value="nottosay">Prefer not to say</option>
+							<option value="Other">Other</option>
+						</select>
+					</label>
+				<label for="role" id="label">What is your favourite feature of freeCodeCamp?
+						<select id="dropdown" name="feature">
+							<option value="option">Select an option</option>
+							<option value="challenges">Challenges</option>
+							<option value="project">Projects</option>
+							<option value="community">Community</option>
+							<option value="opensource">Open source</option>
+						</select>
+					</label>
+					</fieldset>
+
+					<fieldset>
+					<label for="recommend" id="label">
+					Would your recommend freeCodeCamp to a friend?<br/>
+						<input type="radio" value="definitely" name="refer" class="inline">Definitely</input><br>
+						<input type="radio" value="Maybe" name="refer" class="inline">Maybe</input><br>
+						<input type="radio" value="Not sure" name="refer" class="inline">Not Sure</input><br>
+					</label>	
+						<br>
+					<label for="improve" id="label">
+					What would you like to see improved? (Check all that apply)<br>
+						<input type="checkbox" value="frontend" name="improve" class="inline">Front-end Projects</input><br>
+						<input type="checkbox" value="backend" name="improve" class="inline">Back-end Projects</input><br>
+						<input type="checkbox" value="dv" name="improve" class="inline">Data Visualization</input><br>
+						<input type="checkbox" value="challenge" name="improve" class="inline">Challenges</input><br>
+						<input type="checkbox" value="opensource" name="improve" class="inline">Open Source Community</input><br>
+					</label>
+					</fieldset>
+
+					<fieldset>
+					<label for="comment" id="label">
+					Any comments or suggestions?<br>
+						<textarea id="suggestion" rows="10" cols="88" placeholder="Enter your comment here...">
+						</textarea>
+				
+					<button id="submit"><label id="sublab">Submit</label></button>					
+				</fieldset>	
+
+			</form>
+		</div>
+</body>
+</html>
