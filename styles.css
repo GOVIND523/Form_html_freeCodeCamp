@@ -1,0 +1,119 @@
+#title{
+	font-family :poppins,sans-serif;
+	color : black;
+	text-align : center;
+	padding-top : 24px;
+}
+
+body{
+	background-image :  url(https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+	background-repeat : no-repeat;
+	background-size : cover;
+	font-family : poppins,sans-serif;
+}
+
+#description{
+	color : black;
+	font-weight : 500;
+	font-style : italic;
+	font-family : poppins,sans-serif;
+	text-align : center;
+	padding-bottom : 16px;
+	font-size : 12px;
+}
+
+#survey-form{
+	padding-top : 8px;
+	padding-left : auto;
+	padding-right : auto;
+}
+
+input,#email,#number,#name,#dropdown,#feature{
+	width : 100%;
+	color : white;
+	min-height : 24px;
+	background : rgba(0,0,0,0.8);
+	border-radius : 4px;
+	padding-top : 4px;
+	padding-bottom : 4px;
+	margin-top : 4px;
+	margin-bottom : 12px;
+}
+
+select{
+	font-size : 12px;
+}
+
+#dropdown{
+	width : 100%;
+	min-height : 24px;
+	padding : 8px 16px 8px 8px;
+}
+
+#name-label,#email-label,#number-label,label{
+	font-size : 16px;
+	font-weight : 500;
+}
+
+input[placeholder]
+{
+	padding-left : 8px;
+	font-size : 12px;
+}
+
+textarea[placeholder]{
+	font-size : 12px;
+}
+
+#form{
+	background-color : rgba(255,255,255,0.8);
+	width : 90%;
+	max-width : 480px;
+	margin-left : auto;
+	margin-right : auto;
+	height : auto;
+	border-radius : 8px;
+	padding-bottom : 24px;
+}
+
+fieldset{
+	border : none;
+	margin-top : 0px;
+}
+
+input[type=radio]{
+	width :14px;
+	height :14px;
+	margin :0px 10px 0 10px;
+	vertical-align : middle;
+}
+
+input[type=checkbox]{
+	width : 14px;
+	height : 14px;
+	margin : 0 10px 0 10px;
+	vertical-align : middle;
+}
+
+textarea{
+	border-radius : 8px;
+	width : 100%;
+	background-color : rgba(0,0,0,0.8);
+	margin-bottom : 24px;
+	margin-top : 4px;
+	color : white;
+}
+
+#submit{
+	width : 100%;
+	min-height : 40px;
+	border : none;
+	background-color : green;
+	border-radius : 4px;
+}
+
+#sublab{
+	color : white;
+	font-size : 16px;
+	font-weight : 400;
+}
